@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de cafeteria</title>
+    <title>Chez Tim</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,13 +13,13 @@
 <body>
 
     <header class="navbar">
-        <div class="logo">CAFE <span>DE LA ESQUINA</span></div>
+        <div class="logo">CAFE <span>CHEZ TIM</span></div>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#nosotros">Nuestro Propósito</a></li>
-                <li><a href="#sucursales">Sucursales</a></li>
+                <li><a href="#sucursales">Sucursal</a></li>
             </ul>
         </nav>
         <a href="#sucursales" class="btn-nav">Buscanos</a>
@@ -111,6 +111,68 @@
             </div>
 
         </div>
+        <h2>NUESTROS CAFÉS</h2>
+        <div class="menu-grid">
+            <div class="tarjeta-menu" onclick="abrirModal('Maple Latte', 'Espresso, steamed milk, maple syrup, cinnamon', '20.00 Bs', 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800')">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=600" alt="Maple Latte">
+                </div>
+                <h3>Maple Latte</h3>
+                <p>Espresso, steamed milk, maple syrup, cinnamon</p>
+                <div class="card-footer">
+                    <span class="precio">20.00 Bs</span>
+                    <button class="btn-card">Ver detalles</button>
+                </div>
+            </div>
+
+            <div class="tarjeta-menu" onclick="abrirModal('Cortado', 'Equal parts espresso & milk', '25.00 Bs', 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800')">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600" alt="Cortado">
+                </div>
+                <h3>Cortado</h3>
+                <p>Equal parts espresso & milk</p>
+                <div class="card-footer">
+                    <span class="precio">25.00 Bs</span>
+                    <button class="btn-card">Ver detalles</button>
+                </div>
+            </div>
+
+            <div class="tarjeta-menu" onclick="abrirModal('Batch Brew', 'House blend, smooth flavor', '20.00 Bs', 'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=800')">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=600" alt="Batch Brew">
+                </div>
+                <h3>Batch Brew</h3>
+                <p>House blend, smooth flavor</p>
+                <div class="card-footer">
+                    <span class="precio">20.00 Bs</span>
+                    <button class="btn-card">Ver detalles</button>
+                </div>
+            </div>
+
+            <div class="tarjeta-menu" onclick="abrirModal('Pastry Basket', 'Croissant, muffin, cookie', '30.00 Bs', 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800')">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600" alt="Pastry Basket">
+                </div>
+                <h3>Pastry Basket</h3>
+                <p>Croissant, muffin, cookie</p>
+                <div class="card-footer">
+                    <span class="precio">30.00 Bs</span>
+                    <button class="btn-card">Ver detalles</button>
+                </div>
+            </div>
+            <div class="tarjeta-menu" onclick="abrirModal('Maple Latte', 'Espresso, steamed milk, maple syrup, cinnamon', '20.00 Bs', 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800')">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=600" alt="Maple Latte">
+                </div>
+                <h3>Maple Latte</h3>
+                <p>Espresso, steamed milk, maple syrup, cinnamon</p>
+                <div class="card-footer">
+                    <span class="precio">20.00 Bs</span>
+                    <button class="btn-card">Ver detalles</button>
+                </div>
+            </div>
+            
+        </div>
     </section>
 
     <section id="nosotros" class="seccion-nosotros">
@@ -177,17 +239,17 @@
                 <a href="#sucursales">Buscanos</a> 
             </div>
             <div class="footer-grid">
-                <p><strong>Social</strong></p>
+                <p><strong>Redes Sociales</strong></p>
                     <p><a href="https://www.facebook.com/share/19MocM1VHw/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="facebook" width="40" height="40"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/cheztim" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="instagram" width="40" height="40"></a></p>
             </div>
             <div class="footer-col">
-                <p><strong>Contact</strong></p>
+                <p><strong>Contactos</strong></p>
                 <p>📞 (+591) 65594321</p>
                 <p> <a href="mailto:pan@cheztim.com">✉️ pan@cheztim.com</a></p>
                 <p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="whatsapp" width="20" height="20"> (+591) 65594321</p>
             </div>
         </div>
-        <p class="copyright">&copy; <i>2026 CAFE DE LA ESQUINA. Todos los derechos reservados.</i></p>
+        <p class="copyright">&copy; <i>2026 Kaliguest. Todos los derechos reservados.</i></p>
     </footer>
 
     <div id="modal-cafe" class="modal-overlay" onclick="cerrarModalFuera(event)">
